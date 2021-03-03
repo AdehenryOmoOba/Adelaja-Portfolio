@@ -543,6 +543,38 @@ body {
   max-width: 33.33%;
   margin-bottom: 30px;
 }
+.portfolio-item.hide {
+  display: none;
+}
+.portfolio-item.show {
+  display: block;
+  animation: showItem 0.5s ease;
+  -webkit-animation: showItem 0.5s ease;
+}
+@keyframes showItem {
+  0% {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes showItem {
+  0% {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
 .portfolio-filter {
   flex: 0 0 100%;
   -ms-flex: 0 0 100%;
@@ -637,14 +669,18 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 100;
-  display: flex;
-  display: -ms-flexbox;
+
+  display: none;
   align-items: center;
   -ms-flex-align: center;
   justify-content: center;
   -ms-flex-pack: center;
   cursor: zoom-out;
   padding: 30px;
+}
+.lightbox.open {
+  display: flex;
+  display: -ms-flexbox;
 }
 .lightbox-close {
   position: absolute;
@@ -660,6 +696,38 @@ body {
 }
 .lightbox-content {
   position: relative;
+  /* transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8); */
+  animation: lightboximage 0.5s ease;
+}
+/* .lightbox.open .lightbox-content {
+  background-color: blue;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  animation: lightboximage 0.5s ease;
+} */
+
+@keyframes lightboximage {
+  0% {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes lightboximage {
+  0% {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
 }
 .lightbox-content img {
   height: auto;
@@ -683,11 +751,29 @@ body {
 }
 .lightbox-controls .prev-item,
 .lightbox-controls .next-item {
+  position: absolute;
   width: 40px;
   height: 40px;
   background-color: #fff;
   text-align: center;
   border-radius: 50%;
+  cursor: pointer;
+  top: 50%;
+  margin-top: -20px;
+  z-index: 120;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.lightbox-controls .prev-item:active,
+.lightbox-controls .next-item:active {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+.lightbox-controls .prev-item {
+  left: 30px;
+}
+.lightbox-controls .next-item {
+  right: 30px;
 }
 .lightbox-controls .prev-item .fa,
 .lightbox-controls .next-item .fa {
