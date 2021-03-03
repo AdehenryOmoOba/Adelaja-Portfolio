@@ -1,0 +1,167 @@
+*** Adehenry Web ***
+
+
+ --- Contents (Personal Portfolio Template) ---
+
+1. Aside Navbar
+
+    - logo
+
+      Nav       
+    - icon (fa fa-home) font Awesome Icon         Home
+    - icon (fa fa-user) font Awesome Icon         About
+    - icon (fa fa-list) font Awesome Icon         Service
+    - icon (fa fa-briefcase) font Awesome Icon    Portfolio
+    - icon (fa fa-envelope) font Awesome Icon     Blog
+    - icon (fa fa-comments) font Awesome Icon     Contact
+
+    - copyright text
+
+1. Home Section
+
+    - Photo
+    - Adefemi Henry
+    - I'm a Web Developer
+    
+      Social Links
+    - icon (fa fa-twitter) font Awesome Icon 
+    - icon (fa fa-facebook) font Awesome Icon 
+    - icon (fa fa-instagram) font Awesome Icon 
+    - icon (fa fa-linkedin) font Awesome Icon 
+
+2. About Me
+   
+   - About Me
+   - I'm Adefemi Henry and Web Developer
+   - Hello! My name is Adefemi Henry. I am a Web Developer, I'm very passionate and dedicated 
+     to my work. In my programming journey, i have passed through coding boot camp, acquired certificates, execute projects and i have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration. 
+     
+     Personal-info
+   - Birthday : 16 September
+   - Website : www.domain.com
+   - Email : adefemiadelaja@gmail.com
+   - Phone : +234 803 082 1679
+   - Office : +805 961 7035
+   - City : Lagos/Ibadan
+   - Freelance : Available
+   - Remote : Available
+   - Relocation : Available
+
+     Button
+   - Downolad, Hire Me
+
+     Skills
+   - HTML
+   - CSS
+   - SASS
+   - Bootstrap
+   - Javascript
+   - React.JS
+   - GitHub
+ 
+  
+
+
+     Education
+   - 2013 - 2015
+   - Master In Computer Science
+   - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non 
+     nisi semper, et elementum lorem ornare.
+
+   - 2011 - 2013
+   - Studied At Delhi University
+   - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non 
+     nisi semper, et elementum lorem ornare.
+
+   - 2008 - 2011
+   - Bachelor Degree
+   - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non 
+     nisi semper, et elementum lorem ornare.
+
+     Experience
+   - 2013 - 2015
+   - Backend Developer
+   - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non 
+     nisi semper, et elementum lorem ornare.
+
+   - 2011 - 2013
+   - Frontend Developer
+   - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non 
+     nisi semper, et elementum lorem ornare.
+
+   - 2008 - 2011
+   - Graphic Designer
+   - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non 
+     nisi semper, et elemePhotographyntum lorem ornare.
+
+3. Services
+
+   - icon : fa fa-laptop (font awesome icon)
+   - Web Design
+   - Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.
+
+   - icon : fa fa-photo (font awesome icon)
+   - Photography
+   - Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.
+
+   - icon : fa fa-code (font awesome icon)
+   - Web Development
+   - Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.
+
+   - icon : fa fa-film (font awesome icon)
+   - Video Editing
+   - Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.
+
+   - icon : fa fa-rocket (font awesome icon)
+   - Seo Optimization
+   - Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.
+
+   - icon : fa fa-paint-brush (font awesome icon)
+   - Logo Design
+   - Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.
+
+4. Portfolio
+
+   - All, Web, Design, Photography
+
+
+5. Blog
+
+   - 4 jun 2020
+   - Responsive Web Design
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo 
+     quam, eum alias id, repellendus magni, quas.
+   - Tags : Html , css
+
+   - 4 jun 2020
+   - Creative Slideshow
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo 
+     quam, eum alias id, repellendus magni, quas.
+   - Tags : Html , Javascript
+
+   - 4 jun 2020
+   - Image Gallery Lightbox
+   - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo 
+     quam, eum alias id, repellendus magni, quas.
+   - Tags : Javascript
+
+6. Contact Me
+
+   - icon : fa fa-phone (font awesome icon)
+   - Call Us On
+   - +234 803 082 1679
+
+   - icon : fa fa-map-marker (font awesome icon)
+   - Office
+   - +805 961 7035
+
+   - icon : fa fa-envelope (font awesome icon)
+   - Email
+   - adefemiadelaja@gmail.com
+
+     Form Field
+   - Name, Email, Subject, Message, Button (Send Message) 
+
+
+
+

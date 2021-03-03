@@ -1,0 +1,35 @@
+.aside .logo a::before {
+  border-top: 4px solid #ec1839;
+  border-left: 4px solid #ec1839;
+}
+.aside .logo a::after {
+  border-right: 4px solid #ec1839;
+  border-bottom: 4px solid #ec1839;
+}
+.aside .nav li a:hover,
+.aside .nav li a.active,
+.lightbox-controls .prev-item,
+.lightbox-controls .next-item,
+.about-content .about-text h3 span,
+.service-item-inner .icon .fas,
+.service-item-inner .icon .far,
+.portfolio-filter button.active,
+.portfolio-info .icon .fa {
+  color: #ec1839;
+}
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-links a,
+.section-title h2::before,
+.btn,
+.progress-in,
+.section-title h2::after,
+.timeline-item::before,
+.timeline-item .circle-dot,
+.service-item-inner:hover .icon {
+  background-color: #ec1839;
+}
+.portfolio-filter button.active {
+  border-color: #ec1839;
+}
