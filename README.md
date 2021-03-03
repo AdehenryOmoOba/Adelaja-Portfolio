@@ -1,2 +1,2 @@
 # Adelaja-Portfolio
-Adelaja's Personal Portfolio Project
+This repo contains my personal portfolio Project to showcase my work
