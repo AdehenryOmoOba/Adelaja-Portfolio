@@ -56,7 +56,7 @@
       <!-- Main Content -->
       <div class="main-content">
         <!-- Home Section -->
-        <section class="home section hidden">
+        <section class="home section">
           <div class="container">
             <div class="intro">
               <img
@@ -77,7 +77,7 @@
         </section>
         <!-- Home Section End-->
         <!-- About Section  -->
-        <section class="about-section hidden">
+        <section class="about-section">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -304,7 +304,7 @@
         </section>
         <!-- About Section  End-->
         <!-- Services Section  -->
-        <section class="xxx service section hidden">
+        <section class="xxx service section">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -401,7 +401,7 @@
                 <button type="button" data-filter="github">GitHub</button>
               </div>
             </div>
-            <div class="row">
+            <div class="row portfolio-row">
               <!-- Portfolio Item  -->
               <div class="portfolio-item padd-15" data-category="web-design">
                 <div class="portfolio-item-inner shadow-dark">
@@ -491,27 +491,40 @@
             </div>
           </div>
         </section>
-        <!-- Portfolio Section  End-->
       </div>
-      <!-- Main Content End -->
     </div>
-    <!-- Main Container -->
+
     <!-- LightBox  -->
     <div class="lightbox">
       <div class="lightbox-content">
         <div class="lightbox-close">&times;</div>
-        <img src="./images/1.JPG" alt="" class="lightbox-img" />
+        <img
+          src="./images/1.JPG"
+          alt=""
+          class="lightbox-img"
+          onclick="nextItem()"
+        />
         <div class="lightbox-caption">
-          <div class="caption-text">Web Design</div>
-          <div class="caption-counter">1 of 6</div>
+          <div class="caption-text"></div>
+          <div class="caption-counter"></div>
         </div>
       </div>
       <div class="lightbox-controls">
-        <div class="prev-item"><i class="fa fa-angle-left"></i></div>
-        <div class="next-item"><i class="fa fa-angle-right"></i></div>
+        <div class="prev-item" onclick="prevItem()">
+          <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="next-item" onclick="nextItem()">
+          <i class="fa fa-angle-right"></i>
+        </div>
       </div>
     </div>
     <!-- LightBox  End-->
+    <!-- Portfolio Section  End-->
+    <!-- Blog Section  -->
+
+    <!-- Blog Section  End-->
+    <!-- Main Content End -->
+    <!-- Main Container -->
     <script src="app.js" async></script>
   </body>
 </html>

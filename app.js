@@ -26,3 +26,55 @@ function filter() {
     }
   }
 }
+
+// Portfolio LightBox //////////////
+const lightBox = document.querySelector(".lightbox");
+const lightBoxImg = document.querySelector(".lightbox-img");
+const lightBoxText = document.querySelector(".caption-text");
+const lightBoxCounter = document.querySelector(".caption-counter");
+const lightBoxClose = document.querySelector(".lightbox-close");
+let itemIndex = 0;
+
+for (let k = 0; k < totalPortfolioItem; k++) {
+  portfolioItems[k].addEventListener("click", function () {
+    itemIndex = k;
+    changeItem();
+    toggleLightBox();
+  });
+}
+function changeItem() {
+  imgSrc = portfolioItems[itemIndex]
+    .querySelector(".portfolio-img img")
+    .getAttribute("src");
+  lightBoxImg.src = imgSrc;
+  lightBoxText.innerHTML = portfolioItems[itemIndex].querySelector(
+    "h4"
+  ).innerHTML;
+  lightBoxCounter.innerHTML = `${itemIndex + 1} of ${totalPortfolioItem}`;
+}
+function toggleLightBox() {
+  lightBox.classList.toggle("open");
+}
+function nextItem() {
+  if (itemIndex === totalPortfolioItem - 1) {
+    itemIndex = 0;
+  } else {
+    itemIndex++;
+  }
+  changeItem();
+}
+function prevItem() {
+  if (itemIndex === 0) {
+    itemIndex = totalPortfolioItem - 1;
+  } else {
+    itemIndex--;
+  }
+  changeItem();
+}
+
+// Close LightBox //
+lightBox.addEventListener("click", function (e) {
+  if (e.target === lightBoxClose || e.target === lightBox) {
+    toggleLightBox();
+  }
+});
