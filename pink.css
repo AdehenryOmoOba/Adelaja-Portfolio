@@ -14,7 +14,9 @@
 .service-item-inner .icon .fas,
 .service-item-inner .icon .far,
 .portfolio-filter button.active,
-.portfolio-info .icon .fa {
+.portfolio-info .icon .fa,
+.blog-tags a,
+.contact-info-item .icon .fas {
   color: #ec1839;
 }
 .aside .nav-toggler span,
@@ -27,7 +29,8 @@
 .section-title h2::after,
 .timeline-item::before,
 .timeline-item .circle-dot,
-.service-item-inner:hover .icon {
+.service-item-inner:hover .icon,
+.blog-date {
   background-color: #ec1839;
 }
 .portfolio-filter button.active {

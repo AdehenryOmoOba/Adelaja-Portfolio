@@ -21,6 +21,11 @@ body {
 ::after {
   box-sizing: border-box;
 }
+input,
+textarea,
+select {
+  font-family: "Poppins", sans-serif;
+}
 .section {
   background-color: #f2f2fc;
   min-height: 100vh;
@@ -332,6 +337,8 @@ body {
   white-space: nowrap;
   margin-right: 15px;
   margin-top: 10px;
+  border: none;
+  cursor: pointer;
 }
 .btn:hover {
   transform: scale(1.05);
@@ -790,4 +797,163 @@ body {
 .lightbox-controls .next-item .fa {
   font-size: 30px;
   line-height: 40px;
+}
+
+/* Blog Section */
+.blog .container {
+  padding-bottom: 40px;
+}
+.blog-blog h2,
+.contact-padd h2 {
+  margin-bottom: 30px;
+}
+
+.blog.section,
+.contact.section {
+  margin-left: 270px;
+  padding-left: 30px;
+  padding-top: 55px;
+}
+.blog-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+.blog-item-inner {
+  border: 1px solid #d4d4e3;
+  border-radius: 10px;
+  overflow-y: hidden;
+}
+.blog-item-inner:hover .blog-img img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+.blog-img {
+  position: relative;
+  overflow: hidden;
+}
+.blog-img img {
+  display: block;
+  width: 100%;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.row-blog {
+  margin: 0;
+}
+.blog-info {
+  padding: 30px 15px;
+  background-color: #fdf9ff;
+}
+.blog-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #302e4d;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.blog-tags {
+  font-size: 14px;
+  font-weight: 400;
+  color: #504e70;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+.blog-date {
+  position: absolute;
+  padding: 4px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  left: 15px;
+  bottom: 15px;
+}
+.blog-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #504e70;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.blog-tags a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Contact Section */
+.contact.section {
+  /* min-height: 100vh; */
+  width: 100%;
+  margin-left: 150px;
+}
+.contact.section .row {
+  padding-left: 55px;
+}
+.contact-info-item {
+  flex: 0 0 33.33%;
+  -ms-flex: 0 0 33.33%;
+  max-width: 33.33%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contact-info-item .icon {
+  display: inline-block;
+}
+.contact-info-item .icon .fas {
+  font-size: 40px;
+}
+.contact-info-item h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #302e4d;
+  text-transform: capitalize;
+  margin: 15px 0 5px;
+}
+.contact-info-item p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #504e70;
+  margin: 0;
+}
+.contact-form {
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  max-width: 100%;
+}
+.contact-form .col-6 {
+  flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+}
+.contact-form .col-12 {
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  max-width: 100%;
+}
+.form-item {
+  margin-bottom: 30px;
+}
+.form-control {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #d4d4e3;
+  padding: 10px 25px;
+  font-size: 16px;
+  color: #504e70;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+textarea.form-control {
+  height: 140px;
+}
+.contact-form .btn {
+  height: 50px;
+  padding: 0 50px;
+  margin-bottom: 30px;
+}
+.form-control:focus {
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
